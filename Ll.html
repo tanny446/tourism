@@ -1,0 +1,425 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+p.v
+{
+  margin-left: 8cm;
+  font-size: 18px;
+}
+h2.a
+{
+  color:green;
+  letter-spacing: 2px;
+}
+.sidebar
+    {
+      width: 18%;
+      background-color: white;
+      border-right: 3px solid #ddd;
+      height: 100%;
+      float: left;
+      }
+      .tooltip1 
+{     
+  position:relative;     
+  display:inline-block; 
+}
+.tooltip1 .a
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -60%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .a::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 13%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .a 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1 .b
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -375%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .b::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 37%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .b 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1 .c
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -840%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .c::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 60%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .c 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1 .d
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -710%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .d::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 85%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .d 
+{
+    visibility: visible;
+    opacity: 1;
+}
+table {
+    width: 100%;
+}
+
+
+th {
+    padding: 10px;
+    border-left: 1px solid #ddd;
+    height: 50px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+th:hover
+{
+  background-color:#f5f5f5;
+  color:black;
+}
+</style>
+<body>
+<img style="width:100%; height:150px;" src="wtj.jpg">
+<table>
+<tr>
+<th>
+<div class="tooltip1"><h2>Tourist Places</h2>
+  <span class="a">
+  <div style="height: 50%">
+  <div style="float:left; width:33%; height:40%;">
+  <img src="taj-mahal.jpeg" style="float:left;width:250px;height:230px;margin-left:10px;">
+  <h3>
+        <center><a href="Ltm.html">Taj Mahal</a></center>
+  </h3>      
+        <h4 style="text-align:left;">
+        <b><u>Ratings:</u></b> 4.6/5
+        <br>
+        <b><u>Address:</u></b> Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Height: </u></b> 15 m<br>
+        <b><u>Architectural style:</u></b> Mughal architecture<br>
+        <b><u>Built by:</u></b> Shah Jahan
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="agrafort.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Laf.html">Agra Fort</a></center>
+        </h3>
+        <h4>
+        <b><u>Ratings:</u></b> 4.6/5
+        <br>
+        <b><u>Address:</u></b> Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Opened: </u></b> 1734<br>
+        <b><u>Built By</u></b>: Shah Jahan<br>
+        <b><u>Architect:</u></b> Ustad Ahmad Lahouri, Ustad Isa<br>
+        <b><u>Height: </u></b> 73m<br>
+  </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="jm.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Ljm.html">Jama Masjid</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Meena Bazaar, Jama Masjid, Chandni Chowk, New Delhi, Delhi 110006
+        <b><u>Capacity:</u></b> 25000 <br>
+        <b><u>Settlement:</u></b> Agra <br>
+        <b><u>Architect:</u></b> Islamic Architure<br>
+        <b><u>Built by:</u></b>Shah Jahan<br>     
+        </h4>
+</div>
+</div>
+<div style="height: 50%">
+<div style="float:left; width:33%; height:40%;">
+  <img src="at.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Lat.html">Akbar's Tomb</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Tomb of Akbar The Great Area, Sikandra, Agra, Uttar Pradesh 282007
+        <br>
+        <b><u>Completed in:</u></b>1610<br>
+        <b><u>Built by:</u></b>Jahangir<br>
+        <b><u>Phone:</b>0562 264 1230<br>  
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="gkt.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Lgkt.html">Guru Ka Tal</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.5/5
+        <br>
+        <b><u>Address:</u></b> Guru Ka Taal, Mathura Road, Agra, Uttar Pradesh 282007
+        <br>
+        <b><u>Opened:</u></b>1600<br>
+        <b><u>Architectural style:</u></b> Mughal architecture<br>
+        <b><u>Built by:</u></b> Guru Sri Guru Tegh Bahudar Ji<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="iud.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Liud.html">Itimad-ud-Daulla</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.1/5
+        <br>
+        <b><u>Address:</u></b>  Moti Bagh, Agra, Uttar Pradesh 282006
+        <br>
+        <b><u>Opened:</u></b>1622<br>
+        <b><u>Architectural style:</u></b> Mughal architecture<br>
+        <b><u>Built by:</u></b> Nur Jahan<br>
+        <b><u>Phone:</u></b> 0562 228 0030
+        </h4>
+</div>
+</div>
+</span>
+</div>
+</th>
+<th>
+<div class="tooltip1"><h2>Restaurants</h2>
+  <span class="b">
+  <div style="height: 50%">
+  <div style="float:left; width:33%; height:40%;">
+  <img src="mghl.jpg" style="float:left;width:250px;height:230px;margin-left:10px;">
+  <h3>
+        <center><a href="Lms.html">Mughal Shereton</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.2/5
+        <br>
+        <b><u>Star:</u></b> 5 Star
+        <br>
+        <b><u>Address:</u></b> Taj Ganj, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Phone: </u></b> (91) (562) 4021700<br>
+        <b><u>Price Range:</u></b>  ₹ 7,818 - ₹ 27,027<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="jaypee.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Ljp.html">The Jaypee Palace</a></center>
+        </h3>
+        <h4>
+        <b><u>Ratings:</u></b> 4.5/5
+        <br>
+        <b><u>Star:</u></b> 5 Star<br>
+        <b><u>Address:</u></b> Fatehabad Road, Agra, Uttar Pradesh 282003
+        <br>
+        <b><u>Price:</u></b>Rs.10000-Rs.60000 <br>
+        <b><u>Contact: </u></b> 0562 233 0800<br>
+  </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="cls.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Lcs.html">Hotel Clark Shiraz</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.4/5
+        <br>
+        <b><u>Star:</u></b> 5
+        <br>
+        <b><u>Address:</u></b> 54, Taj Rd, Agra Cantt, Idgah Colony, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Price:</u></b>Rs.8000-Rs.30000 <br>
+        <b><u>Contact: </u></b> 0562 222 6121<br>   
+        </h4>
+</div>
+</div>
+<div style="height: 50%">
+<div style="float:left; width:33%; height:40%;">
+  <img src="gate.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Lgh.html">The Gateway Hotel</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.2/5
+        <br>
+        <b><u>Star:</u></b> 4
+        <br>
+        <b><u>Address:</u></b>Fatehabad Road, Tajganj, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Price:</u></b>Rs.5000-Rs.20000 <br>
+        <b><u>Contact: </u></b> 0562 660 2000<br>  
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="rad.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Lrb.html">Radisson Blu Hotel</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.4/5
+        <br>
+        <b><u>Star:</u></b> 3
+        <br>
+        <b><u>Address:</u></b> Taj East Gate Road, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Price:</u></b>Rs.4000-Rs.15000<br>
+        <b><u>Contact: </u></b> 0562 405 5555<br>  
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="pushp.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Lpv.html">Hotel Pushp Villa</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.2/5
+        <br>
+        <b><u>Star:</u></b> 3
+        <br>
+        <b><u>Address:</u></b> VIP Road to Taj Mahal,, Agra, Uttar Pradesh 282001
+        <br>
+        <b><u>Price:</u></b>Rs.2000-Rs.8000<br>
+        <b><u>Contact: </u></b> 0562 233 4301<br>  
+        </h4>
+</div>
+</div>
+</span>
+</div>
+</th>
+</tr>
+</table>
+<hr style="color:#ddd;">
+<div class="sidebar">
+<center><h2 class="a">Lotus Hospital</h2></center>
+<img style="width:260px; height:200px;" src="lotus.jpg">
+<br>
+<p class="a"> 
+        <b><u>Address:</u></b>  Diwani Crossing, Agra, Uttar Pradesh 282006 
+        <br>
+        <b><u>Phone: </u></b> 0562 405 7365<br>
+</p>
+  </div>
+  <img src="ah6.jpg" style="width:240px; height:150px;">
+  <img src="ah2.jpg" style="width:240px; height:150px;">
+  <img src="ah3.jpg" style="width:240px; height:150px;">
+  <img src="ah4.jpg" style="width:240px; height:150px;">
+  <img src="ah5.jpg" style="width:240px; height:150px;">
+  <h3><u>About</u></h3>
+  <p class="v">
+Lotus Hospital is ounded by eminent physician, Dr. S. B. Jhawar the institution has been envisioned with the aim of bringing the highest standards of medical care along with clinical research, education and training at affordable cost. Apex is governed under the guiding principles of providing medical services to patients with care, compassion, commitment.</p>
+  <ul style="float:left;">
+  <b>Hospital Facilities:</b>
+<li>Fully equipped Neonatal ICU</li>
+<li>4 operation theatres</li>
+<li>200 full-time employees</li>
+<li>35 eminent consultants</li>
+<li>Total number of beds: 200</li>
+<li>Intensive Care Unit: 50 beds</li>
+</ul>
+ </p>
+</body>
+</html>

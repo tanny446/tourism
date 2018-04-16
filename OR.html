@@ -1,0 +1,619 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+p.v
+{
+  margin-left: 8cm;
+  font-size: 18px;
+}
+h2.a
+{
+  color:green;
+  letter-spacing: 2px;
+}
+.sidebar
+    {
+      width: 18%;
+      background-color: white;
+      border-right: 3px solid #ddd;
+      height: 100%;
+      float: left;
+      }
+      .tooltip1 
+{     
+  position:relative;     
+  display:inline-block; 
+}
+.tooltip1 .a
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -60%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .a::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 13%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .a 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1 .b
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -375%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .b::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 37%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .b 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1 .c
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -840%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .c::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 60%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .c 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip1 .d
+{
+    visibility: hidden;
+    width: 1470px;
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -710%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip1 .d::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 85%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+}
+
+.tooltip1:hover .d 
+{
+    visibility: visible;
+    opacity: 1;
+}
+table {
+    width: 100%;
+}
+
+
+th {
+    padding: 10px;
+    border-left: 1px solid #ddd;
+    height: 50px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+th:hover
+{
+  background-color:#f5f5f5;
+  color:black;
+}
+</style>
+<body>
+<img style="width:100%; height:150px;" src="wtj.jpg">
+<table>
+<tr>
+<th>
+<div class="tooltip1"><h2>Tourist Places</h2>
+  <span class="a">
+  <div style="height: 50%">
+  <div style="float:left; width:33%; height:40%;">
+  <img src="a.jpg" style="float:left;width:250px;height:230px;margin-left:10px;">
+  <h3>
+        <center><a href="Hawa Mahal.html">Hawa Mahal</a></center>
+  </h3>      
+        <h4 style="text-align:left;">
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Hawa Mahal Rd, Badi Choupad, J.D.A. Market, Jaipur
+        <br>
+        <b><u>Height: </u></b> 15 m<br>
+        <b><u>Architectural style:</u></b> Mughal architecture<br>
+        <b><u>Built by:</u></b> Pratap Singh of Jaipur
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="nf.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Nahargarh Fort.html">Nahargarh Fort</a></center>
+        </h3>
+        <h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Nahargarh Fort Road, Jaipur, 302001,
+        <br>
+        <b><u>Opened: </u></b> 1734<br>
+        <b><u>Built By</u></b>: Maharaja Sawai Jai Singh II<br>
+        <b><u>Contact: </u></b> 0141-5110598<br>
+  </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="jal mahal.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Jal Mahal.html">Jal Mahal</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.1/5
+        <br>
+        <b><u>Address:</u></b> Amer Road | Amber Fort Road, Jaipur
+        <br>
+        <b><u>Area:</u></b> 121 ha <br>
+        <b><u>Settlement:</u></b> Jaipur <br>
+        <b><u>Architect:</u></b> Pratap Singh of Jaipur<br>     
+        </h4>
+</div>
+</div>
+<div style="height: 50%">
+<div style="float:left; width:33%; height:40%;">
+  <img src="jantar mantar.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Jantar Mantar.html">Jantar Mantar</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Gangori Bazaar, J.D.A. Market, Kanwar Nagar, Jaipur, Rajasthan 302002
+        <br>
+        <b><u>Completed in:</u></b> 1734 CE<br>
+        <b><u>Built by:</u></b>King Sawai Jai Singh II<br>
+        <b><u>UNESCO World Heritage Site inscription:</u></b> 2010   <br>  
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="cb.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="City Palace.html">City Palace</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Jalebi Chowk, Near Jantar Mantar, Tripolia Bazar, Jaipur, Rajasthan 302002
+        <br>
+        <b><u>Opened:</u></b>1732<br>
+        <b><u>Architectural style:</u></b> Mughal architecture<br>
+        <b><u>Built by:</u></b> Vidyadhar Bhattacharya<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="af.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="Amer Fort.html">Amer Fort</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.6/5
+        <br>
+        <b><u>Address:</u></b>  Devisinghpura, Amer, Jaipur, Rajasthan 302001
+        <br>
+        <b><u>Opened:</u></b>1592<br>
+        <b><u>Architectural style:</u></b> Mughal architecture<br>
+        <b><u>Materials:</u></b> Sandstone,Marble<br>
+        <b><u>Built by:</u></b> Man Singh I<br>
+        </h4>
+</div>
+</div>
+</span>
+</div>
+</th>
+<th>
+<div class="tooltip1"><h2>Restaurants</h2>
+  <span class="b">
+  <div style="height: 50%">
+  <div style="float:left; width:33%; height:40%;">
+  <img src="r.jpg" style="float:left;width:250px;height:230px;margin-left:10px;">
+  <h3>
+        <center><a href="RS.html">Rajputana Shereton</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.8/5
+        <br>
+        <b><u>Star:</u></b> 5 Star
+        <br>
+        <b><u>Address:</u></b> Palace Road, Jaipur, 302006
+        <br>
+        <b><u>Phone: </u></b> 0141-5100100<br>
+        <b><u>Price Range:</u></b> Rs.6000-Rs.23000<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="or.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="OR.html">The Oberoi Rajvilas</a></center>
+        </h3>
+        <h4>
+        <b><u>Ratings:</u></b> 4.6/5
+        <br>
+        <b><u>Star:</u></b> 5 Star<br>
+        <b><u>Address:</u></b> Goner Rd, Jagdish Colony, Paldi Meena, Jaipur,302031
+        <br>
+        <b><u>Price:</u></b>Rs.40000-Rs.60000 <br>
+        <b><u>Contact: </u></b> 0141-2680101<br>
+  </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="fs.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="FSM.html">Fortune Select Metropolitan</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.1/5
+        <br>
+        <b><u>Star:</u></b> 4
+        <br>
+        <b><u>Address:</u></b> GF Metropolitan Mall,Bais Godam Road, C Scheme, Jaipur, 302001
+        <br>
+        <b><u>Price:</u></b>Rs.4000-Rs.10000 <br>
+        <b><u>Contact: </u></b> 0141-3988442<br>   
+        </h4>
+</div>
+</div>
+<div style="height: 50%">
+<div style="float:left; width:33%; height:40%;">
+  <img src="rf.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="RF.html">Hotel Red Fox</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4/5
+        <br>
+        <b><u>Star:</u></b> 3
+        <br>
+        <b><u>Address:</u></b>Opp. MNIT College, JLN Marg, Bajaj Nagar, Jaipur, 302017
+        <br>
+        <b><u>Price:</u></b>Rs.2000-Rs.5000 <br>
+        <b><u>Contact: </u></b> 0141-4120101<br>  
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="rt.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="RT.html">Hotel Revolving Tower</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.5/5
+        <br>
+        <b><u>Star:</u></b> 3
+        <br>
+        <b><u>Address:</u></b> Bani Park, Near CCD, Metal Colony, Jaipur, 302023
+        <br>
+        <b><u>Price:</u></b>Rs.2000-Rs.5000<br>
+        <b><u>Contact: </u></b> 0141-6700700<br>  
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="ca.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="HCA.html">Hotel Clarks Amer</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.2/5
+        <br>
+        <b><u>Star:</u></b> 3
+        <br>
+        <b><u>Address:</u></b> U.P. Restaurants Limited, Jawahar Lal Nehru Marg, Jaipur, 302018
+        <br>
+        <b><u>Price:</u></b>Rs.4000-Rs.8000<br>
+        <b><u>Contact: </u></b> 0141-2550616<br>  
+        </h4>
+</div>
+</div>
+</span>
+</div>
+</th>
+<th>
+<div class="tooltip1"><h2>Hospitals</h2>
+  <span class="c">
+  <div style="height: 50%">
+  <div style="float:left; width:33%; height:40%;">
+  <img src="frts.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="FH.html">Fortis Hospital</a></center>
+  </h3>      
+        <h4>
+        <b><u>Address:</u></b>  Fortis Escorts Hospital, Jawahar Lal Nehru Marg, Malviya Nagar Jaipur - 302017
+        <br>
+        <b><u>Phone: </u></b> 0141-2547000<br>
+        <b><u>Email:</u></b> fortishealthcare.com<br>
+        <b><u>Fax:</u></b> 91-11-26825013
+        <br>
+        <b><u>Website:</u></b>www.Fortis Hospitals.com<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="apex.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="AH.html">Apex Hospital</a></center>
+        </h3>
+        <h4>
+        <b><u>Address:</u></b> Apex Hospitals Pvt Ltd SP-4, Malviya Industrial Area, Malviya Nagar, Jaipur- 302017 
+        <br>
+        <b><u>Phone: </u></b> 0141-2751006<br>
+        <b><u>Email:</u></b> info@apexhospital.in<br>
+        <b><u>Fax:</u></b> 91-11-2751872
+        <br>
+        <b><u>WebSite:</u></b>www.apexhospitals.in<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="sks.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="SKS.html">SK Soni Hospital</a></center>
+  </h3><h4>
+        <b><u>Address:</u></b> Road No.1, Sikar Road, Vidyadhar Nagar, Jaipur, 302039 
+        <br>
+        <b><u>Phone: </u></b> 0141-271234<br>
+        <b><u>Email:</u></b> info@sonimanipal.in<br>
+        <b><u>Fax:</u></b> 91-11-2685580
+        <br>
+        <b><u>WebSite:</u></b>www.sksonihospital.in<br>
+        </h4>
+</div>
+</div>
+<div style="height: 50%">
+<div style="float:left; width:33%; height:40%;">
+  <img src="mgh.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="MGH.html">Mahatma Gandhi Hospital</a></center>
+  </h3><h4>
+        <b><u>Address:</u></b> RIICO Institutional Area, Sitapura, Tonk Road, Jaipur, 302022 
+        <br>
+        <b><u>Phone: </u></b> 0141-2231241<br>
+        <b><u>Email:</u></b> mghospitals@gmail.com<br>
+        <b><u>Fax:</u></b> 91-11-2746536
+        <br>
+        <b><u>WebSite:</u></b>www.MGHospital.in<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="moni.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="MHC.html">Monilek Hospital and Research Centre</a></center>
+  </h3><h4>
+        <b><u>Address:</u></b> Monilek Hospital and Research Centre,Sector 4, Jawahar Nagar, Jaipur, 302 004 
+        <br>
+        <b><u>Phone: </u></b> 0141-5107689<br>
+        <b><u>Email:</u></b> info@monilekhospital.com<br>
+        <b><u>Fax:</u></b> 91-11-5123717
+        <br>
+        <b><u>WebSite:</u></b>www.monilek hospital.in<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="sms.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="SMS.html">SMS Hospital</a></center>
+  </h3>      
+        <h4>
+        <b><u>Address:</u></b> No. 11, Sawai Mansingh Road, Tonk Road, Jaipur, 302001,
+        <br>
+        <b><u>Phone: </u></b> 0141-2107381<br>
+        <b><u>Email:</u></b> info@smshospital.com<br>
+        <b><u>Fax:</u></b> 91-11-3113238
+        <br>
+        <b><u>WebSite:</u></b>www.smshospital.in<br>
+        </h4>
+</div>
+</div>
+</span>
+</div>
+</th>
+<th>
+<div class="tooltip1"><h2>Shopping Malls</h2>
+  <span class="d">
+  <div style="height: 50%">
+  <div style="float:left; width:33%; height:40%;">
+  <img src="wtp.jpg" style="float:left;width:250px;height:230px;margin-left:10px;">
+  <h3>
+        <center><a href="WTP.html">World Trade Park</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Jawahar Lal Nehru Marg, Malviya Nagar, Jaipur
+        <br>
+        <b><u>Opened: </u></b> 2012<br>
+        <b><u>Phone:</u></b> 0141-4131234<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="tm.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="TM.html">Triton Mall</a></center>
+        </h3>
+        <h4>
+        <b><u>Ratings:</u></b> 4.5/5
+        <br>
+        <b><u>Address:</u></b> Near Bhawani Niketan, Sikar Road, Jaipur, 302001,
+        <br>
+        <b><u>Opened: </u></b> 2010 <br>
+        <b><u>Contact: </u></b> 0141-5112351<br>
+  </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="gt.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="GT.html">Gaurav Tower</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.7/5
+        <br>
+        <b><u>Address:</u></b> JLN Marg, Malviya Nagar, Near WTP, Jaipur
+        <br>
+        <b><u>Opened:</u></b> 1996 <br>
+        <b><u>Contact:</u></b> 0141-6861891 <br>     
+        </h4>
+</div>
+</div>
+<div style="height: 50%">
+<div style="float:left; width:33%; height:40%;">
+  <img src="mgf.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="MGF.html">MGF Metropolitan Mall</a></center>
+  </h3><h4>
+        <b><u>Ratings:</u></b> 4.3/5
+        <br>
+        <b><u>Address:</u></b> Opposite Crystal Palm, 22 Godam, Malviya Nagar, Jaipur
+        <br>
+        <b><u>Opened:</u></b> 2009<br>
+        <b><u>Contact</u></b> 0141-8361839<br> 
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="ps.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="PSM.html">Pink Square Mall</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.0/5
+        <br>
+        <b><u>Address:</u></b> Airport Road, Adarsh Nagar, Jaipur, 300201
+        <br>
+        <b><u>Opened:</u></b>2010<br>
+        <b><u>Contact:</u></b> 0141-2917193<br>
+        </h4>
+</div>
+<div style="float:left; width:33%; height:40%;">
+  <img src="em.jpg" style="float:left;width:250px;height:230px;margin-left:10px";>
+  <h3>
+        <center><a href="EM.html">Elements Mall</a></center>
+  </h3>      
+        <h4>
+        <b><u>Ratings:</u></b> 4.1/5
+        <br>
+        <b><u>Address:</u></b>  Near Metro Station, Vaishali Nagar, Mansarovar, Jaipur -302001
+        <br>
+        <b><u>Opened:</u></b>2011<br>
+        <b><u>Contact:</u></b> 0141-313347<br>
+        </h4>
+</div>
+</div>
+</span>
+</div>
+</th>
+</tr>
+</table>
+<hr style="color:#ddd;">
+<div class="sidebar">
+<center><h2 class="a">The Oberoi Rajvilas</h2></center>
+<img style="width:260px; height:200px;" src="or2.jpg">
+<br>
+<p class="a"> 
+<b><u>Ratings:</u></b> 4.6/5
+        <br>
+        <b><u>Star:</u></b> 5 Star<br>
+        <b><u>Address:</u></b> Goner Rd, Jagdish Colony, Paldi Meena, Jaipur,302031
+        <br>
+        <b><u>Price:</u></b>Rs.40000-Rs.60000 <br>
+        <b><u>Contact: </u></b> 0141-2680101<br>
+</p>
+  </div>
+  <img src="or6.jpg" style="width:240px; height:150px;">
+  <img src="or1.jpg" style="width:240px; height:150px;">
+  <img src="or3.jpg" style="width:240px; height:150px;">
+  <img src="or4.jpg" style="width:240px; height:150px;">
+  <img src="or5.jpg" style="width:240px; height:150px;">
+  <h3><u>About</u></h3>
+  <p class="v">
+  The Oberoi Rajvilas is unique amongst hotels in Jaipur; a royal resort set in a breathtaking thirty two acre oasis of beautiful landscaped gardens, filled with beautiful trees and exotic birdlife. Built around an 18th century Shiva temple where guests can experience chanting with a Hindu priest, meditation and morning yoga, The Oberoi Rajvilas, Jaipur is a haven of mystical peace and natural serenity.
+  <p class="v">
+  <ul style="float:left;">
+  <b>Hotel Facilities and Amenities provided on complimentary basis:</b>
+<li>24-hours concierge</li>
+<li>Gymnasium</li>
+<li>Car parking valet services</li>
+<li>Luggage store room</li>
+<li>Steam</li>
+<li>Luggage store room</li>
+<li>High speed internet for up to four devices</li>
+</ul>
+ </p>
+</body>
+</html>
